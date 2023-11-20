@@ -19,6 +19,13 @@ The hardest part of learning something new is often just getting started. This s
 
 ## Installation
 
+### Create repo from template
+
+1. Click the **Use this template** button above the file list
+2. Select **Create a new repository**
+
+### Manually copy and paste
+
 1. Clone this repository
 2. Copy the contents of the repository to your project directory
 3. Run **`npm install`** to install dependencies
