@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "A starter project for using TypeScript with ES Modules.",
 	"author": "Joseph Barron (Joseph Writes Code)",
-	"website": "https://josephwritescode.com",
+	"website": "http://josephwritescode.com",
 	"license": "MIT",
 	"main": "dist/index.mjs",
 	"scripts": {
