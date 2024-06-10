@@ -17,8 +17,8 @@
 		// instead of `import foo from '../../foo'`. The src/@types/ folder is for TypeScript type definitions for
 		// JavaScript modules that don't have any type definitions, if needed.
 		"paths": {
-			"*": ["node_modules/*", "src/@types/*"],
-			"@/*": ["./*"]
+			"*": ["src/@types/*"],
+			"@/*": ["src/*"]
 		},
 		// Include the latest version of JavaScript's standard library.
 		"lib": ["esnext", "DOM", "DOM.Iterable"],
@@ -42,9 +42,9 @@
 		"noEmit": true
 	},
 	// This tells TypeScript to only compile files in the `src` folder
-	"include": ["./src"],
+	"include": ["./src", "./.eslintrc.cjs", "./prettierrc.cjs"],
 	// This tells TypeScript not to compile files in the `dist` folder
-	"exclude": ["./dist"],
+	"exclude": ["./dist", "./node_modules"],
 	// Enables native ESM support, so you can use `.mts` file extension.
 	"ts-node": {
 		"esm": true
